@@ -11,11 +11,11 @@ Repository "Getting-and-Cleaning-Data" consists of following sub-folders
 
 Sub Folders
 -----------
-1. CourseProject   --> this folder contains run_analysis.R script
+1. CourseProject : this folder contains run_analysis.R script
 
-a. UCI HAR Dataset --> this sub-folder in "CourseProject" contains data for this project
+  a. UCI HAR Dataset : this sub-folder in "CourseProject" contains data for this project
 
-b. AnalysisResult  --> this sub-folder in "CourseProject" contains result data and code book
+  b. AnalysisResult : this sub-folder in "CourseProject" contains result data and code book
 
 Note
 -----
