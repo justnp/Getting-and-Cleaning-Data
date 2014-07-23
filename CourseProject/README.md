@@ -29,9 +29,11 @@ Parameters for the project
 Steps to reproduce this project
 -------------------------------
 
-1. Open the R script  "run_analysis.R"
-2. Set your working directory (i.e., the folder where these the R script file is saved)
-3. Run the R script  "run_analysis.R"
+1. Downloaded source data from url https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip , to your working directory (for this course project)
+2. Unzip/extract “UCI HAR Dataset.zip” this will create an archive folder “UCI HAR Dataset”
+3. Open the R script  "run_analysis.R"
+4. Set your working directory (i.e., the folder where the R script file is saved)
+5. Run the R script  "run_analysis.R", result datasets are for this project is stored in folder “AnalysisResult”
 
 
 Outputs produced

@@ -39,8 +39,6 @@ if (!file.exists(AnalysisResultPath)) {
 
 # Load required libray
 library(data.table)
-library(reshape2)
-library(knitr)
 
 # Step1: Merge the training and the test sets to create one data set
 
