@@ -14,7 +14,7 @@ Parameters for the project
 > 
 > Here are the data for the project: 
 > 
-> https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+> https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 > 
 > You should create one R script called run_analysis.R that does the following. 
 > 
@@ -24,6 +24,25 @@ Parameters for the project
 > 4. Appropriately labels the data set with descriptive activity names.
 > 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 > 
+Analysis Steps
+--------------
+
+1. Set required data directory variable
+2. Merges the training and the test sets to create one data set. 
+ • load X_test.txt
+ • load Y_test.txt
+ • load subject_test.txt
+ • load X_train.txt
+ • load Y_train.txt
+ • load subject_train.txt
+ • merge above data
+3. Extracts only the measurements on the mean and standard deviation for each measurement.
+   • load features.txt as column names
+   • extract measurements only contains "mean()" or "std()"
+   • append "label" and "subject" columns
+4. Uses descriptive activity names to name the activities in the data set
+5. Appropriately labels the data set with descriptive variable names. 
+6. Creates a second, independent tidy data set "Tidy_Avg_Data.txt" with the average of each variable for each  activity and each subject by grouping activity and subject
 
 
 Steps to reproduce this project
