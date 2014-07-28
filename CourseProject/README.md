@@ -28,14 +28,14 @@ Analysis Steps
 --------------
 
 1. Set required data directory variable
-2. Merges the training and the test sets to create one data set. 
- • load X_test.txt
- • load Y_test.txt
- • load subject_test.txt
- • load X_train.txt
- • load Y_train.txt
- • load subject_train.txt
- • merge above data
+2. Merges the training and the test sets to create one data set
+* load X_test.txt
+* load Y_test.txt
+* load subject_test.txt
+* load X_train.txt
+* load Y_train.txt
+* load subject_train.txt
+* merge above data
 3. Extracts only the measurements on the mean and standard deviation for each measurement.
    • load features.txt as column names
    • extract measurements only contains "mean()" or "std()"
